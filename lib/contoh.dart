@@ -10,7 +10,9 @@ class SplashScreenApp extends StatelessWidget {
         onPressed: () {},
         child: const Icon(Icons.data_array),
       ),
-      appBar: AppBar(),
+      appBar: AppBar(
+        title: const Text('Applikasi pertama'),
+      ),
       body: const Center(),
     );
   }
