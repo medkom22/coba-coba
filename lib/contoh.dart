@@ -6,6 +6,10 @@ class SplashScreenApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {},
+        child: const Icon(Icons.data_array),
+      ),
       appBar: AppBar(),
       body: const Center(),
     );
