@@ -15,6 +15,8 @@ class SplashScreenApp extends StatelessWidget {
       ),
       body: Center(
         child: Container(
+          width: 300,
+          height: 300,
           color: Colors.orange,
         ),
       ),
