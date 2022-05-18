@@ -13,7 +13,11 @@ class SplashScreenApp extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Applikasi pertama'),
       ),
-      body: const Center(),
+      body: Center(
+        child: Container(
+          color: Colors.orange,
+        ),
+      ),
     );
   }
 }
